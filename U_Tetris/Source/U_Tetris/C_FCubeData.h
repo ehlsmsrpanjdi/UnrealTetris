@@ -5,15 +5,6 @@
 #include "CoreMinimal.h"
 #include "C_FCubeData.generated.h"
 
-
-UCLASS(BlueprintType)
-class ULocationObject : public UObject {
-	GENERATED_BODY()
-public:
-	TArray<FCubeLocation> LocationArray;
-};
-
-
 USTRUCT(BlueprintType)
 struct  FCubeLocation {
 	GENERATED_BODY()
@@ -31,4 +22,16 @@ struct FC_FCubeData : public FTableRowBase
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<FCubeLocation> LocationArray;
+};
+
+
+UCLASS()
+class ULocationObject : public UObject {
+	GENERATED_BODY()
+public:
+	void SetData(const TArray<FC_FCubeData*>& _Array);
+
+private:
+	TArray<bool> SpawnedArray;
+	TArray<TArray<FCubeLocation>> LocationArray;
 };

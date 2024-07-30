@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeU_Tetris_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x457AFAB2,
+				0x25DF0A2E,
 				0xD0A78924,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeU_Tetris_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_U_Tetris.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_U_Tetris(Z_Construct_UPackage__Script_U_Tetris, TEXT("/Script/U_Tetris"), Z_Registration_Info_UPackage__Script_U_Tetris, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x457AFAB2, 0xD0A78924));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_U_Tetris(Z_Construct_UPackage__Script_U_Tetris, TEXT("/Script/U_Tetris"), Z_Registration_Info_UPackage__Script_U_Tetris, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x25DF0A2E, 0xD0A78924));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

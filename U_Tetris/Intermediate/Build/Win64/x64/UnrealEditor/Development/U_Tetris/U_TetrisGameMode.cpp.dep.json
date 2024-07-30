@@ -1,18 +1,18 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetrisgamemode.cpp",
+        "Source": "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetrisgamemode.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\u_tetriseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\u_tetriseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\u_tetris\\definitions.u_tetris.h",
-            "d:\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetrisgamemode.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\u_tetris\\definitions.u_tetris.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetrisgamemode.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "d:\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\u_tetrisgamemode.generated.h",
-            "d:\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetrischaracter.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\u_tetrisgamemode.generated.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetrischaracter.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
@@ -21,7 +21,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "d:\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\u_tetrischaracter.generated.h"
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\u_tetrischaracter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

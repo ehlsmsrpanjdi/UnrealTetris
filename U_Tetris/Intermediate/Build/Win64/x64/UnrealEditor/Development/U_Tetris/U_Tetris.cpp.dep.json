@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetris.cpp",
+        "Source": "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetris.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\u_tetriseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\u_tetriseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\u_tetris\\definitions.u_tetris.h",
-            "d:\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetris.h"
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\u_tetris\\definitions.u_tetris.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\u_tetris.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

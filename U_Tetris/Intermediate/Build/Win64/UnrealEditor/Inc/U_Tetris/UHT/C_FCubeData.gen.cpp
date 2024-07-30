@@ -19,67 +19,6 @@ U_TETRIS_API UScriptStruct* Z_Construct_UScriptStruct_FCubeLocation();
 UPackage* Z_Construct_UPackage__Script_U_Tetris();
 // End Cross Module References
 
-// Begin Class ULocationObject
-void ULocationObject::StaticRegisterNativesULocationObject()
-{
-}
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ULocationObject);
-UClass* Z_Construct_UClass_ULocationObject_NoRegister()
-{
-	return ULocationObject::StaticClass();
-}
-struct Z_Construct_UClass_ULocationObject_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-		{ "BlueprintType", "true" },
-		{ "IncludePath", "C_FCubeData.h" },
-		{ "ModuleRelativePath", "C_FCubeData.h" },
-	};
-#endif // WITH_METADATA
-	static UObject* (*const DependentSingletons[])();
-	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
-		TCppClassTypeTraits<ULocationObject>::IsAbstract,
-	};
-	static const UECodeGen_Private::FClassParams ClassParams;
-};
-UObject* (*const Z_Construct_UClass_ULocationObject_Statics::DependentSingletons[])() = {
-	(UObject* (*)())Z_Construct_UClass_UObject,
-	(UObject* (*)())Z_Construct_UPackage__Script_U_Tetris,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ULocationObject_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FClassParams Z_Construct_UClass_ULocationObject_Statics::ClassParams = {
-	&ULocationObject::StaticClass,
-	nullptr,
-	&StaticCppClassTypeInfo,
-	DependentSingletons,
-	nullptr,
-	nullptr,
-	nullptr,
-	UE_ARRAY_COUNT(DependentSingletons),
-	0,
-	0,
-	0,
-	0x000000A0u,
-	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ULocationObject_Statics::Class_MetaDataParams), Z_Construct_UClass_ULocationObject_Statics::Class_MetaDataParams)
-};
-UClass* Z_Construct_UClass_ULocationObject()
-{
-	if (!Z_Registration_Info_UClass_ULocationObject.OuterSingleton)
-	{
-		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_ULocationObject.OuterSingleton, Z_Construct_UClass_ULocationObject_Statics::ClassParams);
-	}
-	return Z_Registration_Info_UClass_ULocationObject.OuterSingleton;
-}
-template<> U_TETRIS_API UClass* StaticClass<ULocationObject>()
-{
-	return ULocationObject::StaticClass();
-}
-ULocationObject::ULocationObject(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
-DEFINE_VTABLE_PTR_HELPER_CTOR(ULocationObject);
-ULocationObject::~ULocationObject() {}
-// End Class ULocationObject
-
 // Begin ScriptStruct FCubeLocation
 static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_CubeLocation;
 class UScriptStruct* FCubeLocation::StaticStruct()
@@ -215,6 +154,66 @@ UScriptStruct* Z_Construct_UScriptStruct_FC_FCubeData()
 }
 // End ScriptStruct FC_FCubeData
 
+// Begin Class ULocationObject
+void ULocationObject::StaticRegisterNativesULocationObject()
+{
+}
+IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ULocationObject);
+UClass* Z_Construct_UClass_ULocationObject_NoRegister()
+{
+	return ULocationObject::StaticClass();
+}
+struct Z_Construct_UClass_ULocationObject_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "IncludePath", "C_FCubeData.h" },
+		{ "ModuleRelativePath", "C_FCubeData.h" },
+	};
+#endif // WITH_METADATA
+	static UObject* (*const DependentSingletons[])();
+	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<ULocationObject>::IsAbstract,
+	};
+	static const UECodeGen_Private::FClassParams ClassParams;
+};
+UObject* (*const Z_Construct_UClass_ULocationObject_Statics::DependentSingletons[])() = {
+	(UObject* (*)())Z_Construct_UClass_UObject,
+	(UObject* (*)())Z_Construct_UPackage__Script_U_Tetris,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ULocationObject_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams Z_Construct_UClass_ULocationObject_Statics::ClassParams = {
+	&ULocationObject::StaticClass,
+	nullptr,
+	&StaticCppClassTypeInfo,
+	DependentSingletons,
+	nullptr,
+	nullptr,
+	nullptr,
+	UE_ARRAY_COUNT(DependentSingletons),
+	0,
+	0,
+	0,
+	0x000000A0u,
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ULocationObject_Statics::Class_MetaDataParams), Z_Construct_UClass_ULocationObject_Statics::Class_MetaDataParams)
+};
+UClass* Z_Construct_UClass_ULocationObject()
+{
+	if (!Z_Registration_Info_UClass_ULocationObject.OuterSingleton)
+	{
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_ULocationObject.OuterSingleton, Z_Construct_UClass_ULocationObject_Statics::ClassParams);
+	}
+	return Z_Registration_Info_UClass_ULocationObject.OuterSingleton;
+}
+template<> U_TETRIS_API UClass* StaticClass<ULocationObject>()
+{
+	return ULocationObject::StaticClass();
+}
+ULocationObject::ULocationObject(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
+DEFINE_VTABLE_PTR_HELPER_CTOR(ULocationObject);
+ULocationObject::~ULocationObject() {}
+// End Class ULocationObject
+
 // Begin Registration
 struct Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_Statics
 {
@@ -223,10 +222,10 @@ struct Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_Statics
 		{ FC_FCubeData::StaticStruct, Z_Construct_UScriptStruct_FC_FCubeData_Statics::NewStructOps, TEXT("C_FCubeData"), &Z_Registration_Info_UScriptStruct_C_FCubeData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FC_FCubeData), 193575043U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ULocationObject, ULocationObject::StaticClass, TEXT("ULocationObject"), &Z_Registration_Info_UClass_ULocationObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULocationObject), 824801593U) },
+		{ Z_Construct_UClass_ULocationObject, ULocationObject::StaticClass, TEXT("ULocationObject"), &Z_Registration_Info_UClass_ULocationObject, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULocationObject), 4286673744U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_3755569248(TEXT("/Script/U_Tetris"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_3235026888(TEXT("/Script/U_Tetris"),
 	Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_Statics::ScriptStructInfo),
 	nullptr, 0);

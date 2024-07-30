@@ -1,11 +1,11 @@
-"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\UnrealEditor\Inc\U_Tetris\UHT\U_TetrisCharacter.gen.cpp"
-/FI"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\U_TetrisEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\Definitions.U_Tetris.h"
-/Yu"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\U_TetrisEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\U_TetrisEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\U_TetrisCharacter.gen.cpp.obj"
-/sourceDependencies "D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\U_TetrisCharacter.gen.cpp.dep.json"
-@"D:\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\U_Tetris.Shared.rsp"
+"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\UnrealEditor\Inc\U_Tetris\UHT\U_TetrisCharacter.gen.cpp"
+/FI"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\U_TetrisEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\Definitions.U_Tetris.h"
+/Yu"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\U_TetrisEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\U_TetrisEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\U_TetrisCharacter.gen.cpp.obj"
+/sourceDependencies "D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\U_TetrisCharacter.gen.cpp.dep.json"
+@"D:\UnrealTetris\UnrealTetris\U_Tetris\Intermediate\Build\Win64\x64\UnrealEditor\Development\U_Tetris\U_Tetris.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

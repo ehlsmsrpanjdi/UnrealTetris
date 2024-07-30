@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\UnrealTetris\\U_Tetris\\Source\\U_Tetris\\U_Tetris.Build.cs",
-		"D:\\UnrealTetris\\U_Tetris\\Source\\U_Tetris.Target.cs",
-		"D:\\UnrealTetris\\U_Tetris\\Source\\U_TetrisEditor.Target.cs"
+		"D:\\UnrealTetris\\UnrealTetris\\U_Tetris\\Source\\U_Tetris\\U_Tetris.Build.cs",
+		"D:\\UnrealTetris\\UnrealTetris\\U_Tetris\\Source\\U_Tetris.Target.cs",
+		"D:\\UnrealTetris\\UnrealTetris\\U_Tetris\\Source\\U_TetrisEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.3"
 }
