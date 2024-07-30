@@ -9,7 +9,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UDataTable;
 #ifdef U_TETRIS_C_TetrisInstance_generated_h
 #error "C_TetrisInstance.generated.h already included, missing '#pragma once' in C_TetrisInstance.h"
 #endif

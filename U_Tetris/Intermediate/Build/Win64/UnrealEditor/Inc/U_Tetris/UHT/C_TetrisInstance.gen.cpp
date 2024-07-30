@@ -21,26 +21,14 @@ UPackage* Z_Construct_UPackage__Script_U_Tetris();
 // Begin Class UC_TetrisInstance Function SetData
 struct Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics
 {
-	struct C_TetrisInstance_eventSetData_Parms
-	{
-		UDataTable* _Data;
-	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "C_TetrisInstance.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FObjectPropertyParams NewProp__Data;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::NewProp__Data = { "_Data", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(C_TetrisInstance_eventSetData_Parms, _Data), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::NewProp__Data,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UC_TetrisInstance, nullptr, "SetData", nullptr, nullptr, Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::PropPointers), sizeof(Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::C_TetrisInstance_eventSetData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::Function_MetaDataParams) };
-static_assert(sizeof(Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::C_TetrisInstance_eventSetData_Parms) < MAX_uint16);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UC_TetrisInstance, nullptr, "SetData", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UC_TetrisInstance_SetData_Statics::Function_MetaDataParams) };
 UFunction* Z_Construct_UFunction_UC_TetrisInstance_SetData()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -52,10 +40,9 @@ UFunction* Z_Construct_UFunction_UC_TetrisInstance_SetData()
 }
 DEFINE_FUNCTION(UC_TetrisInstance::execSetData)
 {
-	P_GET_OBJECT(UDataTable,Z_Param__Data);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->SetData(Z_Param__Data);
+	P_THIS->SetData();
 	P_NATIVE_END;
 }
 // End Class UC_TetrisInstance Function SetData
@@ -84,15 +71,21 @@ struct Z_Construct_UClass_UC_TetrisInstance_Statics
 		{ "IncludePath", "C_TetrisInstance.h" },
 		{ "ModuleRelativePath", "C_TetrisInstance.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CubeData_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "C_TetrisInstance" },
+		{ "ModuleRelativePath", "C_TetrisInstance.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LocationData_MetaData[] = {
 		{ "ModuleRelativePath", "C_TetrisInstance.h" },
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CubeData;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LocationData;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UC_TetrisInstance_SetData, "SetData" }, // 4062432182
+		{ &Z_Construct_UFunction_UC_TetrisInstance_SetData, "SetData" }, // 1897925202
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -100,8 +93,10 @@ struct Z_Construct_UClass_UC_TetrisInstance_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UC_TetrisInstance_Statics::NewProp_CubeData = { "CubeData", nullptr, (EPropertyFlags)0x0144000000000005, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UC_TetrisInstance, CubeData), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CubeData_MetaData), NewProp_CubeData_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UC_TetrisInstance_Statics::NewProp_LocationData = { "LocationData", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UC_TetrisInstance, LocationData), Z_Construct_UClass_ULocationObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LocationData_MetaData), NewProp_LocationData_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UC_TetrisInstance_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UC_TetrisInstance_Statics::NewProp_CubeData,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UC_TetrisInstance_Statics::NewProp_LocationData,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UC_TetrisInstance_Statics::PropPointers) < 2048);
@@ -146,10 +141,10 @@ UC_TetrisInstance::~UC_TetrisInstance() {}
 struct Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_TetrisInstance_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UC_TetrisInstance, UC_TetrisInstance::StaticClass, TEXT("UC_TetrisInstance"), &Z_Registration_Info_UClass_UC_TetrisInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UC_TetrisInstance), 2832328210U) },
+		{ Z_Construct_UClass_UC_TetrisInstance, UC_TetrisInstance::StaticClass, TEXT("UC_TetrisInstance"), &Z_Registration_Info_UClass_UC_TetrisInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UC_TetrisInstance), 3563745121U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_TetrisInstance_h_803801721(TEXT("/Script/U_Tetris"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_TetrisInstance_h_1326567546(TEXT("/Script/U_Tetris"),
 	Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_TetrisInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_TetrisInstance_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

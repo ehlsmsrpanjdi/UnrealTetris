@@ -16,9 +16,12 @@ class U_TETRIS_API UC_TetrisInstance : public UGameInstance
 	GENERATED_BODY()
 public:
 	UFUNCTION(BlueprintCallable)
-	void SetData(UDataTable* _Data);
+	void SetData();
 
 private:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<UDataTable> CubeData;
+
 	UPROPERTY()
 	ULocationObject* LocationData = nullptr;
 };

@@ -9,5 +9,4 @@ void ULocationObject::SetData(const TArray<FC_FCubeData*>& _Array)
 		LocationArray.Add(_Array[i]->LocationArray);
 		SpawnedArray.Add(false);
 	}
-	int a = 0;
 }
