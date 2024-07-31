@@ -14,14 +14,17 @@ UCLASS()
 class U_TETRIS_API UC_TetrisInstance : public UGameInstance
 {
 	GENERATED_BODY()
+
+
 public:
-	UFUNCTION(BlueprintCallable)
-	void SetData();
+	/*UFUNCTION(BlueprintCallable)
+	void SetData();*/
+
+	FORCEINLINE UDataTable* GetData() {
+		return CubeData;
+	}
 
 private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<UDataTable> CubeData;
-
-	UPROPERTY()
-	ULocationObject* LocationData = nullptr;
 };

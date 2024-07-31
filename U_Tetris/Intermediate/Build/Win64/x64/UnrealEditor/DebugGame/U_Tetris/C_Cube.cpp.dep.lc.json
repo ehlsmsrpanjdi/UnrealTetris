@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_cube.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\u_tetriseditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\u_tetris\\definitions.u_tetris.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_cube.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_cube.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -21,7 +21,13 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\u_tetrischaracter.generated.h"
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\u_tetrischaracter.generated.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_fcubedata.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_fcubedata.generated.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_cube.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_cube.generated.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_tetrisinstance.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_tetrisinstance.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

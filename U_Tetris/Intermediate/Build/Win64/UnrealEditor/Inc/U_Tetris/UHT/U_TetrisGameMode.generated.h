@@ -9,10 +9,15 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UDataTable;
 #ifdef U_TETRIS_U_TetrisGameMode_generated_h
 #error "U_TetrisGameMode.generated.h already included, missing '#pragma once' in U_TetrisGameMode.h"
 #endif
 #define U_TETRIS_U_TetrisGameMode_generated_h
+
+#define FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execSetData);
+
 
 #define FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -39,6 +44,7 @@ public: \
 #define FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \

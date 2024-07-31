@@ -20,6 +20,10 @@ struct FC_FCubeData : public FTableRowBase
 {
 	GENERATED_BODY();
 public:
+	void Setdata() {
+		int a = 0;
+	}
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<FCubeLocation> LocationArray;
 };
@@ -30,7 +34,7 @@ class ULocationObject : public UObject {
 	GENERATED_BODY()
 public:
 	void SetData(const TArray<FC_FCubeData*>& _Array);
-
+	void SetCubeData(TArray <class  AC_Cube*>& _Array);
 private:
 	TArray<bool> SpawnedArray;
 	TArray<TArray<FCubeLocation>> LocationArray;

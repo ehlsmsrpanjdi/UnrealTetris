@@ -29,7 +29,7 @@ template<> U_TETRIS_API UScriptStruct* StaticStruct<struct FCubeLocation>();
 
 template<> U_TETRIS_API UScriptStruct* StaticStruct<struct FC_FCubeData>();
 
-#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_30_INCLASS_NO_PURE_DECLS \
+#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_34_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesULocationObject(); \
 	friend struct Z_Construct_UClass_ULocationObject_Statics; \
@@ -38,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(ULocationObject)
 
 
-#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_30_ENHANCED_CONSTRUCTORS \
+#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_34_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ULocationObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -52,12 +52,12 @@ public: \
 	NO_API virtual ~ULocationObject();
 
 
-#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_28_PROLOG
-#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_30_GENERATED_BODY \
+#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_32_PROLOG
+#define FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_34_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_30_INCLASS_NO_PURE_DECLS \
-	FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_30_ENHANCED_CONSTRUCTORS \
+	FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_34_INCLASS_NO_PURE_DECLS \
+	FID_U_Tetris_Source_U_Tetris_C_FCubeData_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

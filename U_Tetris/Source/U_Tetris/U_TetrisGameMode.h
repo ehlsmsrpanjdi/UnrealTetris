@@ -11,8 +11,30 @@ class AU_TetrisGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
+	friend class AC_Block;
+
 public:
 	AU_TetrisGameMode();
+
+protected:
+	virtual void BeginPlay();
+
+
+	UFUNCTION(BlueprintCallable)
+	void SetData(class UDataTable* _Table);
+
+	FORCEINLINE class ULocationObject* GetData() {
+		return LocationData;
+	}
+
+
+private:
+
+	UPROPERTY()
+	ULocationObject* LocationData = nullptr;
+
+
+	void SetCubeData(TArray<class AC_Cube*>& _Array);
 };
 
 
