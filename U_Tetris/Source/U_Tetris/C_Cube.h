@@ -25,7 +25,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void SetLocation(int _X, int _Y);
-	void SetLocation(struct FCubeLocation _CubeLocation);
+	void SetLocation(struct FCubeLocation _CubeLocation, AActor* _LocationActor);
+
+	FVector GetAbsoluteScale();
+
+	float GetAbsoluteLength();
 
 private:
 

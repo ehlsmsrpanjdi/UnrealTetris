@@ -6,6 +6,7 @@
 #include "C_Cube.h"
 #include "C_TetrisInstance.h"
 #include "UObject/ConstructorHelpers.h"
+#include "C_Block.h"
 
 AU_TetrisGameMode::AU_TetrisGameMode()
 {
@@ -29,6 +30,16 @@ void AU_TetrisGameMode::SetData(UDataTable* _Table)
 		TArray<FC_FCubeData*> CubeArray;
 		_Table->GetAllRows(TEXT(""), CubeArray);
 		LocationData->SetData(CubeArray);
+	}
+}
+
+void AU_TetrisGameMode::SpawnCube(const FTransform& _Transform)
+{
+	if (false == SpawnBlock->IsValidLowLevel()) {
+		UE_LOG(LogTemp, Fatal, TEXT(""));
+	}
+	else {
+		GetWorld()->SpawnActor<AC_Block>(SpawnBlock, _Transform);
 	}
 }
 

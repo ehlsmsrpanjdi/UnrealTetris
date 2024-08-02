@@ -33,6 +33,11 @@ private:
 	UPROPERTY()
 	ULocationObject* LocationData = nullptr;
 
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<AC_Block> SpawnBlock;
+
+	UFUNCTION(BlueprintCallable, meta = (AllowPrivateAccess = "true"))
+	void SpawnCube(const FTransform& _Transform);
 
 	void SetCubeData(TArray<class AC_Cube*>& _Array);
 };

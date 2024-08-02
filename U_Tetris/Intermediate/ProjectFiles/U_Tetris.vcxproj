@@ -270,6 +270,18 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\U_Tetris\C_FCubeData.h"/>
+    <ClCompile Include="..\..\Source\U_Tetris\C_TetrisBlueprintfunction.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\U_Tetris\C_TetrisBlueprintfunction.h"/>
+    <ClCompile Include="..\..\Source\U_Tetris\C_TetrisBuilding.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\U_Tetris\C_TetrisBuilding.h"/>
+    <ClCompile Include="..\..\Source\U_Tetris\C_TetrisCollision.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\U_Tetris\C_TetrisCollision.h"/>
     <ClCompile Include="..\..\Source\U_Tetris\C_TetrisInstance.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

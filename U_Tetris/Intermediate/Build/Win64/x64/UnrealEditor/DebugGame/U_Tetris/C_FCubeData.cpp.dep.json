@@ -9,7 +9,9 @@
             "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_fcubedata.h",
             "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_fcubedata.generated.h",
             "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_cube.h",
-            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_cube.generated.h"
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_cube.generated.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\source\\u_tetris\\c_tetrisblueprintfunction.h",
+            "d:\\unrealtetris\\unrealtetris\\u_tetris\\intermediate\\build\\win64\\unrealeditor\\inc\\u_tetris\\uht\\c_tetrisblueprintfunction.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

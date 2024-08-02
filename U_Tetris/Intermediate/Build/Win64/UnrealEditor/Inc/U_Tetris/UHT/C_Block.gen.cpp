@@ -34,6 +34,9 @@ struct Z_Construct_UClass_AC_Block_Statics
 		{ "IncludePath", "C_Block.h" },
 		{ "ModuleRelativePath", "C_Block.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CoolTime_MetaData[] = {
+		{ "ModuleRelativePath", "C_Block.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CubeType_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "C_Block" },
@@ -43,6 +46,7 @@ struct Z_Construct_UClass_AC_Block_Statics
 		{ "ModuleRelativePath", "C_Block.h" },
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_CoolTime;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_CubeType;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CubeArray_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_CubeArray;
@@ -53,10 +57,12 @@ struct Z_Construct_UClass_AC_Block_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_Block_Statics::NewProp_CoolTime = { "CoolTime", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_Block, CoolTime), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CoolTime_MetaData), NewProp_CoolTime_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AC_Block_Statics::NewProp_CubeType = { "CubeType", nullptr, (EPropertyFlags)0x0044000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_Block, CubeType), Z_Construct_UClass_UClass, Z_Construct_UClass_AC_Cube_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CubeType_MetaData), NewProp_CubeType_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Block_Statics::NewProp_CubeArray_Inner = { "CubeArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_AC_Cube_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AC_Block_Statics::NewProp_CubeArray = { "CubeArray", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AC_Block, CubeArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CubeArray_MetaData), NewProp_CubeArray_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Block_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Block_Statics::NewProp_CoolTime,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Block_Statics::NewProp_CubeType,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Block_Statics::NewProp_CubeArray_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Block_Statics::NewProp_CubeArray,
@@ -102,10 +108,10 @@ AC_Block::~AC_Block() {}
 struct Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_Block_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AC_Block, AC_Block::StaticClass, TEXT("AC_Block"), &Z_Registration_Info_UClass_AC_Block, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Block), 1541397569U) },
+		{ Z_Construct_UClass_AC_Block, AC_Block::StaticClass, TEXT("AC_Block"), &Z_Registration_Info_UClass_AC_Block, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AC_Block), 2801880324U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_Block_h_1554657871(TEXT("/Script/U_Tetris"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_Block_h_544191388(TEXT("/Script/U_Tetris"),
 	Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_Block_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_U_Tetris_Source_U_Tetris_C_Block_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

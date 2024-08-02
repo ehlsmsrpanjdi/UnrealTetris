@@ -9,7 +9,6 @@
 
 
 
-
 // Sets default values
 AC_Cube::AC_Cube()
 {
@@ -39,9 +38,26 @@ void AC_Cube::SetLocation(int _X, int _Y)
 	Location.LocatoinY = _Y;
 }
 
-void AC_Cube::SetLocation(FCubeLocation _CubeLocation)
+void AC_Cube::SetLocation(FCubeLocation _CubeLocation, AActor* _LocationActor)
 {
 	SetLocation(_CubeLocation.LocatoinX, _CubeLocation.LocatoinY);
-	AddActorLocalOffset(FVector{ Location.LocatoinX  * 100.f});
-	AddActorLocalOffset(FVector{ Location.LocatoinY * 100.f });
+	float ActorLength =  GetAbsoluteLength();
+	FVector VecY = FVector{ 0.0f, Location.LocatoinX * ActorLength , 0.0f };
+	FVector VecZ = FVector{ 0.0f, 0.0f, Location.LocatoinY * ActorLength };
+	AddActorLocalOffset(VecY);
+	AddActorLocalOffset(VecZ);
 }
+
+FVector AC_Cube::GetAbsoluteScale()
+{
+	FVector BoundSize = Body->GetStaticMesh()->GetBounds().BoxExtent * 2;
+	return BoundSize* GetActorScale();
+}
+
+float AC_Cube::GetAbsoluteLength()
+{
+	FVector BoundSize = Body->GetStaticMesh()->GetBounds().BoxExtent * 2;
+	return BoundSize.X * GetActorScale().X;  // Scale이 모두 같을 경우 기준
+}
+
+

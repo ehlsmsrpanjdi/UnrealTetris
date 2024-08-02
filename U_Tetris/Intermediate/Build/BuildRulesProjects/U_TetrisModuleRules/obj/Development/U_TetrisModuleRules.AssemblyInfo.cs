@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("U_TetrisModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce2557e401841c4fcb61262c1dc1b51797f42e78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9617e42e3e76c565468a1523cd0dfcc0a9e6ee6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("U_TetrisModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("U_TetrisModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

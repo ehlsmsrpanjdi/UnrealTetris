@@ -51,6 +51,24 @@
     <ClInclude Include="..\..\Source\U_Tetris\C_FCubeData.h">
       <Filter>Source\U_Tetris</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\U_Tetris\C_TetrisBlueprintfunction.cpp">
+      <Filter>Source\U_Tetris</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\U_Tetris\C_TetrisBlueprintfunction.h">
+      <Filter>Source\U_Tetris</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\U_Tetris\C_TetrisBuilding.cpp">
+      <Filter>Source\U_Tetris</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\U_Tetris\C_TetrisBuilding.h">
+      <Filter>Source\U_Tetris</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\U_Tetris\C_TetrisCollision.cpp">
+      <Filter>Source\U_Tetris</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\U_Tetris\C_TetrisCollision.h">
+      <Filter>Source\U_Tetris</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\U_Tetris\C_TetrisInstance.cpp">
       <Filter>Source\U_Tetris</Filter>
     </ClCompile>

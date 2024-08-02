@@ -16,6 +16,7 @@ class UDataTable;
 #define U_TETRIS_U_TetrisGameMode_generated_h
 
 #define FID_U_Tetris_Source_U_Tetris_U_TetrisGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execSpawnCube); \
 	DECLARE_FUNCTION(execSetData);
 
 
